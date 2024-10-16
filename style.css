@@ -1,0 +1,22 @@
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    transition: all 0.3s ease;
+}
+
+/* Target the 3rd box specifically */
+.box:nth-child(3):hover {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(231, 96, 175);
+}
+  
